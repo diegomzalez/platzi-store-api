@@ -1,73 +1,47 @@
+# Platzi-Store
+<p>Platzi-Store is an API for an Ecommerce. Built in the NestJS course :)</p>
+
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
+    <img src="https://img.shields.io/badge/version-0.2.0-EBCB8B?style=for-the-badge&logo=node.js&logoColor=EBCB8B" alt="JavaScript" />
 </p>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
-
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
+<p align="center">
+    <img src="https://img.shields.io/badge/v14.X-ECEFF4?style=for-the-badge&logo=Node.js" alt="NodeJS" />
+    <img src="https://img.shields.io/badge/supported-A7C9E6?style=for-the-badge&logo=Typescript" alt="Typescript" />
 </p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+### 👁️‍🗨️ About This Repository
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+The purpose of this repository is to show that I applied everything I learned in the NestJS course.
 
-## Installation
+### 📦 Getting Started
 
-```bash
-$ npm install
-```
+#### ⚙️ Installation
 
-## Running the app
+For start to develop with this project follow the steps below:
+
+-   Install the dependencies (Use **npm** preferably):
 
 ```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+npm install
 ```
 
-## Test
+#### ⚡️ Scripts
 
-```bash
-# unit tests
-$ npm run test
+| Process          | Script               | Description                                                  |
+| ---------------- | -------------------- | ------------------------------------------------------------ |
+| Development Mode | `npm run start`      | This command will start the application in development mode. |
+| Watch Mode       | `npm run start:dev`  | This command will start the application in watch mode.       |
+| Testing          | `npm run test`       | This command runs all application tests.                     |
+| Production Mode  | `npm run start:prod` | This command will stars the application in production mode.  |
 
-# e2e tests
-$ npm run test:e2e
+#### ⚙️ Configuration
 
-# test coverage
-$ npm run test:cov
-```
+1) To run program succesfully, keep tsconfig.json.
 
-## Support
+### Author
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+> **Diego González** - Software Engineer
+[![Twitter](https://img.shields.io/badge/Twitter-ECEFF4?style=for-the-badge&logo=Twitter)](https://twitter.com/diegomdevs)
+[![GitHub](https://img.shields.io/badge/GitHub-ECEFF4?style=for-the-badge&logo=GitHub&logoColor=2E3440)](https://github.com/diegomdevs)
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/diego-gonz%C3%A1lez-8a91a9211/)
