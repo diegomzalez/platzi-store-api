@@ -1,30 +1,46 @@
 import {
   Controller,
   Get,
-  DefaultValuePipe,
-  ParseIntPipe,
-  Query,
+  Param,
   Post,
   Body,
   Put,
+  Delete,
+  ParseIntPipe,
 } from '@nestjs/common';
 
+import { UsersService } from '../service/users.service';
+import { CreateUserDto, UpdateUserDto } from '../dtos/user.dto';
+
 @Controller('users')
-export class UserController {
+export class UsersController {
+  constructor(private usersService: UsersService) {}
+
   @Get()
-  getUsers(
-    @Query('limit', new DefaultValuePipe(100), ParseIntPipe) limit: number,
-    @Query('offset', new DefaultValuePipe(0), ParseIntPipe) offset: number,
-  ) {
-    return {
-      message: `Products limit => ${limit} offset => ${offset}`,
-    };
+  findAll() {
+    return this.usersService.findAll();
   }
+
+  @Get(':id')
+  get(@Param('id', ParseIntPipe) id: number) {
+    return this.usersService.findOne(id);
+  }
+
   @Post()
-  create(@Body() payload: any) {
-    return {
-      message: 'Create Action',
-      payload,
-    };
+  create(@Body() payload: CreateUserDto) {
+    return this.usersService.create(payload);
+  }
+
+  @Put(':id')
+  update(
+    @Param('id', ParseIntPipe) id: number,
+    @Body() payload: UpdateUserDto,
+  ) {
+    return this.usersService.update(id, payload);
+  }
+
+  @Delete(':id')
+  remove(@Param('id', ParseIntPipe) id: number) {
+    return this.usersService.remove(+id);
   }
 }

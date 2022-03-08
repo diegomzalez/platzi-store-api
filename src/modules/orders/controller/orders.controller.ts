@@ -8,7 +8,7 @@ import {
   Delete,
 } from '@nestjs/common';
 import { OrderService } from '../service/orders.service';
-import { CreateOrderDto, UpdateOrderDto } from '../dto/orders.dto';
+import { CreateOrderDto, UpdateOrderDto } from '../dtos/orders.dto';
 import { ParseIntPipe } from 'src/common/parse-int.pipe';
 
 @Controller('orders')
